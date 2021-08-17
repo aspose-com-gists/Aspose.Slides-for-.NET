@@ -15,7 +15,7 @@ Go through these steps:
 
 2. Install Aspose.Slides and Aspose.Words through any of these methods:
    * Open NuGet Package Manager, search for *Aspose.Slides*, and then install it. Search for *Aspose.Words* and install it too. 
-   * Go through Tools > Library Package Manager > Package Manager Console and then run these commands:
+   * Go through **Tools** > **Library Package Manager** > **Package Manager Console** and then run these commands:
      *  `Install-Package Aspose.Slides.NET` 
      * `Install-Package Aspose.Words`
    
