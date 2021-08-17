@@ -12,7 +12,7 @@ Go through these steps:
 
 1. Create a new C# console application in Visual Studio. Alternatively, you can load your preferred project. 
 
-2. Install Aspose.Slides through any of these methods:
+2. Install **Aspose.Slides** through any of these methods:
    * Open NuGet Package Manager, search for *Aspose.Slides*, and then install it. 
    * Go through **Tools** > **Library Package Manager** > **Package Manager Console** and then run this command: `Install-Package Aspose.Slides.NET`
 
@@ -33,9 +33,11 @@ Presentation presentation = new Presentation("Input-PowerPoint.pptx");
 presentation.Save("Output-PDF.pdf", SaveFormat.Pdf);
 ```
 
-If you want to use a conversion procedure that complies with with [Web Content Accessibility Guidelines (**WCAG**)](https://www.w3.org/TR/WCAG-TECHS/pdf.html), you have to specify the compliance standards: **PDF/A1a**, **PDF/A1b**, and **PDF/UA**.
+## Converting PowerPoint to Accessible PDF
 
-This sample code shows you how to specify your preferred PDF compliance standard when converting PPTX to PDF or PPT to PDF:
+If you want to use a PowerPoint to PDF conversion procedure in C# that complies with with [Web Content Accessibility Guidelines (**WCAG**)](https://www.w3.org/TR/WCAG-TECHS/pdf.html), you have to specify the compliance standards or tags: **PDF/A1a**, **PDF/A1b**, and **PDF/UA**.
+
+This sample code shows you how to specify your preferred PDF compliance standard when converting **PPTX to PDF** or **PPT to PDF**:
 
 ```c#
 using (Presentation pres = new Presentation("pres.pptx"))
