@@ -26,7 +26,7 @@ using Aspose.Slides.Export;
 4. Use this code snippet to convert the PowerPoint presentation (PPTX or PPT) to PDF:
 
 ```c#
-// Instantiates a Presentation object that represents a PPT file
+// Instantiates a Presentation object that represents a PPTX file
 Presentation presentation = new Presentation("Input-PowerPoint.pptx");
 
 // Saves the presentation as PDF
@@ -40,7 +40,7 @@ If you want to use a PowerPoint to PDF conversion procedure in C# that complies 
 This sample code shows you how to specify your preferred PDF compliance standard when converting **PPTX to PDF** or **PPT to PDF**:
 
 ```c#
-using (Presentation pres = new Presentation("pres.pptx"))
+using (Presentation pres = new Presentation("Input-Presentation.pptx"))
 {
     pres.Save("pres-a1a-compliance.pdf", SaveFormat.Pdf, new PdfOptions()
     {

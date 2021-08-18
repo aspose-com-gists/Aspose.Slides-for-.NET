@@ -26,7 +26,7 @@ using Aspose.Slides;
 
 ```c#
 // Opens the presentation file by passing the file path to the constructor of Presentation class
-Presentation pres = new Presentation("OpenPresentation.pptx");
+Presentation pres = new Presentation("SamplePresentation.pptx");
 
 // Prints the total number of slides present in the presentation
 System.Console.WriteLine(pres.Slides.Count.ToString());

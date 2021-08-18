@@ -38,7 +38,7 @@ var doc = new Document();
 var builder = new DocumentBuilder(doc);
 foreach (var slide in presentation.Slides)
 {
-   // generating and inserting slide screenshot 
+   // generates and inserts slide image
    using var bitmap = slide.GetThumbnail(1, 1);
    using var stream = new MemoryStream();
    bitmap.Save(stream, ImageFormat.Png);
@@ -46,7 +46,7 @@ foreach (var slide in presentation.Slides)
    using var skBitmap = SKBitmap.Decode(stream);
    builder.InsertImage(skBitmap);
 
-   // inserting slide's texts
+   // inserts slide's texts
    foreach (var shape in slide.Shapes)
    {
       if (shape is AutoShape autoShape)
