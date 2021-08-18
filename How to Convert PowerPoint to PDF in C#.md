@@ -12,8 +12,8 @@ Go through these steps:
 
 1. Create a new C# console application in Visual Studio. Alternatively, you can load your preferred project. 
 
-2. Install **Aspose.Slides** through any of these methods:
-   * Open NuGet Package Manager, search for *Aspose.Slides*, and then install it. 
+2. Install **Aspose.Slides for .NET** through any of these methods:
+   * Open NuGet Package Manager, search for *Aspose.Slides.NET*, and then install it. 
    * Go through **Tools** > **Library Package Manager** > **Package Manager Console** and then run this command: `Install-Package Aspose.Slides.NET`
 
 3. Add these namespaces to your program.cs file:
